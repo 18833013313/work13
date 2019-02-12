@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+   <LinearLayout
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+      <Button
+          android:id="@+id/cilre"
+          android:layout_width="wrap_content"
+          android:text="圆形"
+          android:layout_height="wrap_content" />
+    <Button
+          android:id="@+id/yj"
+          android:layout_width="wrap_content"
+          android:text="圆角"
+          android:layout_height="wrap_content" />
+      <Button
+          android:id="@+id/bili"
+          android:layout_width="wrap_content"
+          android:text="1:2"
+          android:layout_height="wrap_content" />
+      <Button
+          android:id="@+id/jianjin"
+          android:layout_width="wrap_content"
+          android:text="渐进式"
+          android:layout_height="wrap_content" />
+      <!--<Button
+          android:id="@+id/xuanzhuan"
+          android:layout_width="wrap_content"
+          android:text="旋转"
+          android:layout_height="wrap_content" />-->
+   </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/huancun"
+            android:layout_width="wrap_content"
+            android:text="磁盘缓存"
+            android:layout_height="wrap_content" />
+        <Button
+
+            android:layout_width="wrap_content"
+            android:text="圆角"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/gif"
+            android:layout_width="wrap_content"
+            android:text="加载动图"
+            android:layout_height="wrap_content" />
+        <Button
+
+            android:layout_width="wrap_content"
+            android:text="渐进式"
+            android:layout_height="wrap_content" />
+        <!--<Button
+            android:id="@+id/xuanzhuan"
+            android:layout_width="wrap_content"
+            android:text="旋转"
+            android:layout_height="wrap_content" />-->
+    </LinearLayout>
+   <com.facebook.drawee.view.SimpleDraweeView
+       android:id="@+id/my_image_view"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      app:viewAspectRatio="1.0"
+       app:fadeDuration="3000"
+       app:placeholderImage="@mipmap/ic_launcher"
+       />
+
+
+
+</LinearLayout>
